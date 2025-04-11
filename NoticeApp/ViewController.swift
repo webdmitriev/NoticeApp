@@ -89,8 +89,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let notiseData = noticeItems[indexPath.row]
-        
+//        let notiseData = noticeItems[indexPath.row]
+//        
         let vc = NoticeEdit()
 //        vc.noticeData = notiseData
         navigationController?.pushViewController(vc, animated: true)

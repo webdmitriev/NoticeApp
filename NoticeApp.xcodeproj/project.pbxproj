@@ -13,6 +13,9 @@
 		5330440F2DA6F55B002B4988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533044092DA6F55B002B4988 /* ViewController.swift */; };
 		533044102DA6F55B002B4988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533044052DA6F55B002B4988 /* Assets.xcassets */; };
 		533044142DA6FFFF002B4988 /* NoticeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533044132DA6FFFF002B4988 /* NoticeModal.swift */; };
+		53709EEB2DA90D8E00819E0B /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53709EEA2DA90D8E00819E0B /* LessonViewController.swift */; };
+		53709EEE2DA9135700819E0B /* CollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53709EED2DA9135700819E0B /* CollectionData.swift */; };
+		53709EF12DA91BCF00819E0B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53709EF02DA91BCF00819E0B /* Header.swift */; };
 		53CCA25C2DA78EFE001927C6 /* UIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCA25B2DA78EFE001927C6 /* UIBuilder.swift */; };
 		53CCA25E2DA790E1001927C6 /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCA25D2DA790E1001927C6 /* NoticeCell.swift */; };
 		53CCA2612DA7C9CD001927C6 /* UIView.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCA2602DA7C9CD001927C6 /* UIView.ext.swift */; };
@@ -29,6 +32,9 @@
 		533044092DA6F55B002B4988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5330440B2DA6F55B002B4988 /* NoticeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoticeApp.xcdatamodel; sourceTree = "<group>"; };
 		533044132DA6FFFF002B4988 /* NoticeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModal.swift; sourceTree = "<group>"; };
+		53709EEA2DA90D8E00819E0B /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		53709EED2DA9135700819E0B /* CollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionData.swift; sourceTree = "<group>"; };
+		53709EF02DA91BCF00819E0B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		53CCA25B2DA78EFE001927C6 /* UIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBuilder.swift; sourceTree = "<group>"; };
 		53CCA25D2DA790E1001927C6 /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
 		53CCA2602DA7C9CD001927C6 /* UIView.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.ext.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 		5330440A2DA6F55B002B4988 /* NoticeApp */ = {
 			isa = PBXGroup;
 			children = (
+				53709EE92DA90D6300819E0B /* Lesson13 */,
 				533044122DA6F55E002B4988 /* App */,
 				53CCA25A2DA78EF1001927C6 /* Helpers */,
 				533044092DA6F55B002B4988 /* ViewController.swift */,
@@ -86,6 +93,32 @@
 				533044082DA6F55B002B4988 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		53709EE92DA90D6300819E0B /* Lesson13 */ = {
+			isa = PBXGroup;
+			children = (
+				53709EEF2DA91BBD00819E0B /* View */,
+				53709EEC2DA9134600819E0B /* Model */,
+				53709EEA2DA90D8E00819E0B /* LessonViewController.swift */,
+			);
+			path = Lesson13;
+			sourceTree = "<group>";
+		};
+		53709EEC2DA9134600819E0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53709EED2DA9135700819E0B /* CollectionData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53709EEF2DA91BBD00819E0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53709EF02DA91BCF00819E0B /* Header.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		53CCA25A2DA78EF1001927C6 /* Helpers */ = {
@@ -182,10 +215,13 @@
 				5330440D2DA6F55B002B4988 /* NoticeApp.xcdatamodeld in Sources */,
 				5330440E2DA6F55B002B4988 /* SceneDelegate.swift in Sources */,
 				53CCA2612DA7C9CD001927C6 /* UIView.ext.swift in Sources */,
+				53709EEB2DA90D8E00819E0B /* LessonViewController.swift in Sources */,
 				533044142DA6FFFF002B4988 /* NoticeModal.swift in Sources */,
 				5330440F2DA6F55B002B4988 /* ViewController.swift in Sources */,
 				53CCA25C2DA78EFE001927C6 /* UIBuilder.swift in Sources */,
 				53CCA2692DA7F37E001927C6 /* NoticeEdit.swift in Sources */,
+				53709EEE2DA9135700819E0B /* CollectionData.swift in Sources */,
+				53709EF12DA91BCF00819E0B /* Header.swift in Sources */,
 				53CCA2652DA7DAB9001927C6 /* UILabel.ext.swift in Sources */,
 				53CCA25E2DA790E1001927C6 /* NoticeCell.swift in Sources */,
 			);
