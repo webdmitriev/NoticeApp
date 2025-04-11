@@ -7,8 +7,14 @@
 
 import Foundation
 
-enum HeaderType {
-    case news, events, users
+//enum HeaderType {
+//    case news, events, users
+//}
+
+enum HeaderType: String {
+    case news = "plus"
+    case events = "Мероприятия"
+    case users = "Пользователи"
 }
 
 struct CollectionSection {

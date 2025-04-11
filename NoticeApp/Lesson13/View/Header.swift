@@ -47,11 +47,11 @@ class Header: UICollectionReusableView {
 
         switch type {
         case .news:
-            self.headerBtn.setImage(UIImage(systemName: "plus"), for: .normal)
+            self.headerBtn.setImage(UIImage(systemName: "\(type.rawValue)"), for: .normal)
         case .events:
-            self.headerBtn.setTitle("Добавить мероприятие", for: .normal)
+            self.headerBtn.setTitle("\(type.rawValue)", for: .normal)
         case .users:
-            self.headerBtn.setTitle("Show all", for: .normal)
+            self.headerBtn.setTitle("\(type.rawValue)", for: .normal)
         }
         
         setupConstraints()

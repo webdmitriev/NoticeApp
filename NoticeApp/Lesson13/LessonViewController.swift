@@ -30,7 +30,7 @@ class LessonViewController: UIViewController {
         $0.delegate = self
 
         $0.register(Header.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: Header.reuseId)
-//        $0.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "footer")
+        //$0.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "footer")
         
         $0.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         return $0
@@ -66,10 +66,10 @@ class LessonViewController: UIViewController {
               elementKind: UICollectionView.elementKindSectionHeader, alignment: .top)
     }
     
-//    private func setupFooterSize() -> NSCollectionLayoutBoundarySupplementaryItem {
-//        .init(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(34)),
-//              elementKind: UICollectionView.elementKindSectionFooter, alignment: .bottom)
-//    }
+    //private func setupFooterSize() -> NSCollectionLayoutBoundarySupplementaryItem {
+    //    .init(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(34)),
+    //          elementKind: UICollectionView.elementKindSectionFooter, alignment: .bottom)
+    //}
     
     override func viewDidLoad() {
         super.viewDidLoad()
