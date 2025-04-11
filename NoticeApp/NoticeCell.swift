@@ -17,7 +17,7 @@ class NoticeCell: UITableViewCell {
     private lazy var cellIcon: UIImageView = builder.addImage(img: "checkmark.circle")
     private lazy var cellTitle: UILabel = builder.addLabel(txt: "Title", fs: 18, lines: 1)
     private lazy var cellDescr: UILabel = builder.addLabel(txt: "Description", lines: 2)
-    private lazy var cellDate: UILabel = builder.addLabel(txt: "01/01/2025", fs: 14, color: UIColor(.appWhite.opacity(0.6)), lines: 1)
+    private lazy var cellDate: UILabel = builder.addLabel(txt: "01/02/2025", fs: 14, color: UIColor(.appWhite.opacity(0.6)), lines: 1)
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
