@@ -27,6 +27,8 @@
 		53CCA2612DA7C9CD001927C6 /* UIView.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCA2602DA7C9CD001927C6 /* UIView.ext.swift */; };
 		53CCA2652DA7DAB9001927C6 /* UILabel.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCA2642DA7DAB9001927C6 /* UILabel.ext.swift */; };
 		53CCA2692DA7F37E001927C6 /* NoticeEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCA2682DA7F37E001927C6 /* NoticeEdit.swift */; };
+		53DFA7FB2DACE3650058380E /* APIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFA7FA2DACE3650058380E /* APIVC.swift */; };
+		53DFA7FE2DACE81F0058380E /* APINetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFA7FD2DACE81F0058380E /* APINetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		53CCA2602DA7C9CD001927C6 /* UIView.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.ext.swift; sourceTree = "<group>"; };
 		53CCA2642DA7DAB9001927C6 /* UILabel.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.ext.swift; sourceTree = "<group>"; };
 		53CCA2682DA7F37E001927C6 /* NoticeEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeEdit.swift; sourceTree = "<group>"; };
+		53DFA7FA2DACE3650058380E /* APIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIVC.swift; sourceTree = "<group>"; };
+		53DFA7FD2DACE81F0058380E /* APINetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		5330440A2DA6F55B002B4988 /* NoticeApp */ = {
 			isa = PBXGroup;
 			children = (
+				53DFA7F92DACE3520058380E /* API */,
 				5329AEDE2DAAE8680029EE2B /* CoreDataApp */,
 				53709EE92DA90D6300819E0B /* Lesson13 */,
 				533044122DA6F55E002B4988 /* App */,
@@ -179,6 +184,23 @@
 				53CCA2642DA7DAB9001927C6 /* UILabel.ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53DFA7F92DACE3520058380E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				53DFA7FC2DACE8110058380E /* NetworkManager */,
+				53DFA7FA2DACE3650058380E /* APIVC.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		53DFA7FC2DACE8110058380E /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				53DFA7FD2DACE81F0058380E /* APINetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +278,10 @@
 				5329AEE32DAAEB940029EE2B /* AddNote.swift in Sources */,
 				5330440C2DA6F55B002B4988 /* AppDelegate.swift in Sources */,
 				5330440D2DA6F55B002B4988 /* NoticeApp.xcdatamodeld in Sources */,
+				53DFA7FE2DACE81F0058380E /* APINetworkManager.swift in Sources */,
 				5330440E2DA6F55B002B4988 /* SceneDelegate.swift in Sources */,
 				5329AED22DAAE2070029EE2B /* StorageManager.swift in Sources */,
+				53DFA7FB2DACE3650058380E /* APIVC.swift in Sources */,
 				53CCA2612DA7C9CD001927C6 /* UIView.ext.swift in Sources */,
 				53709EEB2DA90D8E00819E0B /* LessonViewController.swift in Sources */,
 				533044142DA6FFFF002B4988 /* NoticeModal.swift in Sources */,
